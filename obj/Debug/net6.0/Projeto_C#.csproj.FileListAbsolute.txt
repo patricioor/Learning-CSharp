@@ -1,0 +1,15 @@
+/home/patricio/Projeto_C#/bin/Debug/net6.0/Projeto_C#
+/home/patricio/Projeto_C#/bin/Debug/net6.0/Projeto_C#.deps.json
+/home/patricio/Projeto_C#/bin/Debug/net6.0/Projeto_C#.runtimeconfig.json
+/home/patricio/Projeto_C#/bin/Debug/net6.0/Projeto_C#.dll
+/home/patricio/Projeto_C#/bin/Debug/net6.0/ref/Projeto_C#.dll
+/home/patricio/Projeto_C#/bin/Debug/net6.0/Projeto_C#.pdb
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.csproj.AssemblyReference.cache
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.AssemblyInfoInputs.cache
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.AssemblyInfo.cs
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.csproj.CoreCompileInputs.cache
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.dll
+/home/patricio/Projeto_C#/obj/Debug/net6.0/ref/Projeto_C#.dll
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.pdb
+/home/patricio/Projeto_C#/obj/Debug/net6.0/Projeto_C#.genruntimeconfig.cache
