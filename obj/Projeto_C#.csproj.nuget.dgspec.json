@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/patricio/Projeto_C#/Projeto_C#.csproj": {}
+    "/home/patricio/Projeto_CSharp/Projeto_C#.csproj": {}
   },
   "projects": {
-    "/home/patricio/Projeto_C#/Projeto_C#.csproj": {
+    "/home/patricio/Projeto_CSharp/Projeto_C#.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/patricio/Projeto_C#/Projeto_C#.csproj",
+        "projectUniqueName": "/home/patricio/Projeto_CSharp/Projeto_C#.csproj",
         "projectName": "Projeto_C#",
-        "projectPath": "/home/patricio/Projeto_C#/Projeto_C#.csproj",
+        "projectPath": "/home/patricio/Projeto_CSharp/Projeto_C#.csproj",
         "packagesPath": "/home/patricio/.nuget/packages/",
-        "outputPath": "/home/patricio/Projeto_C#/obj/",
+        "outputPath": "/home/patricio/Projeto_CSharp/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/patricio/.nuget/NuGet/NuGet.Config"

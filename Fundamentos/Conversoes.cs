@@ -1,9 +1,12 @@
 ﻿using System;
 
 
-namespace CSharp.Fundamentos {
-    class Conversoes {
-        public static void Executar() {
+namespace CSharp.Fundamentos
+{
+    class Conversoes
+    {
+        public static void Executar()
+        {
             int inteiro = 10;
             double quebrado = inteiro;
             Console.WriteLine(quebrado);

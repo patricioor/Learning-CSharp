@@ -9,6 +9,7 @@ namespace CSharp.EstruturasDeControle {
                 }
                 Console.Write(i + " ");
             }
+        Console.WriteLine("");
         }
     }
 }

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 using CSharp.Fundamentos;
 using CSharp.EstruturasDeControle;
-//using CSharp.ClassesEMetodos;
+using Projeto_CSharp.ClassesEMetodos;
 
 namespace CSharp {
     class Program {
@@ -41,8 +41,10 @@ namespace CSharp {
                 {"Exercício: Menor Diferença - Estruturas de Controle", ExercicioMenorDiferenca.Executar },
 
                 // Classes & Métodos
-                //{"Membros: Atributos e Métodos - Classes e Métodos", Membros.Executar },
+                {"Membros: Atributos e Métodos - Classes e Métodos", Membros.Executar },
+                {"Construtores - Classes e Métodos", Construtores.Executar },
                 
+
             });
 
             central.SelecionarEExecutar();
