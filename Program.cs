@@ -43,6 +43,8 @@ namespace CSharp {
                 // Classes & Métodos
                 {"Membros: Atributos e Métodos - Classes e Métodos", Membros.Executar },
                 {"Construtores - Classes e Métodos", Construtores.Executar },
+                {"Projeto: Biblioteca", ExecutarBiblioteca.Executar },
+                
                 
 
             });

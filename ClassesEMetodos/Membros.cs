@@ -3,11 +3,11 @@ using System;
 namespace Projeto_CSharp.ClassesEMetodos {
     class Membros {
         public static void Executar() {
-            Pessoa fulano = new Pessoa();
+            Individuo fulano = new Individuo();
             fulano.Nome = "Patricio";
             fulano.Idade = 21;
    
-            var beltrano = new Pessoa();
+            var beltrano = new Individuo();
             beltrano.Nome = "Zé";
             beltrano.Idade = 30;
 
