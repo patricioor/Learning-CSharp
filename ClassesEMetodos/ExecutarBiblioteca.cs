@@ -27,6 +27,7 @@ namespace Projeto_CSharp.ClassesEMetodos
                 switch (opcao)
                 {
                     case 1:
+                    int qntLivrosEmprestadosUsuario = 0;
                         Console.WriteLine("Cadastrar Pessoa");
                         Console.Write("ID: ");
                         int.TryParse(Console.ReadLine(), out int idPessoa);
@@ -41,11 +42,12 @@ namespace Projeto_CSharp.ClassesEMetodos
                         string cpf = Console.ReadLine();
                         Console.Write("Telefone: ");
                         string telefone = Console.ReadLine();
-                        Pessoa Pessoas = new Pessoa(idPessoa, nome, cpf, telefone);
+                        Pessoa Pessoas = new Pessoa(idPessoa, nome, cpf, telefone, qntLivrosEmprestadosUsuario);
                         biblioteca.CadastrarPessoa(Pessoas);
                         Console.WriteLine("Cadastro finalizado!");
                         break;
                     case 2:
+                        int saldoExplrs= 0, qntLivrosEmprestados=0, qntDevolvida = 0;
                         Console.WriteLine("Cadastrar Livro");
                         Console.Write("ID: ");
                         int.TryParse(Console.ReadLine(), out int idLivro);
@@ -62,7 +64,7 @@ namespace Projeto_CSharp.ClassesEMetodos
                         string editora = Console.ReadLine();
                         Console.Write("Quantidade de exemplares: ");
                         int.TryParse(Console.ReadLine(), out int qtdExemplares);
-                        Livro Livros = new Livro(idLivro, titulo, autor, editora, qtdExemplares);
+                        Livro Livros = new Livro(idLivro, titulo, autor, editora, qtdExemplares, saldoExplrs, qntLivrosEmprestados, qntDevolvida);
                         biblioteca.CadastrarLivro(Livros);
                         Console.WriteLine("Cadastro finalizado!");
                         break;
@@ -133,7 +135,7 @@ namespace Projeto_CSharp.ClassesEMetodos
                             {
                                 foreach (Livro livro in pessoas.LivrosEmprestados)
                                 {
-                                    Console.WriteLine("ID: {0}, Titulo: {1}, Autor: {2}, Editora: {3}, Exemplares Emprestados: {4}.", livro.Id, livro.Titulo, livro.Autor, livro.Editora, livro.QntLivroEmprestados);
+                                    Console.WriteLine("ID: {0}, Titulo: {1}, Autor: {2}, Editora: {3}, Exemplares Emprestados: {4}.", livro.Id, livro.Titulo, livro.Autor, livro.Editora, livro.QntLivrosEmprestados);
                                 }
                             }
                             else

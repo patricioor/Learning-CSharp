@@ -57,8 +57,14 @@ namespace Projeto_CSharp.ClassesEMetodos {
                 Console.Write("Insira a quantidade de livros que serão emprestados: ");
                 int.TryParse(Console.ReadLine(),out int qnt);
                 livro.EmprestarLivro(qnt);
+                livro.QntLivrosEmprestados = qnt;
+                
                 Console.WriteLine("Foi efetuado o empréstimo de {0} exemplares", qnt);
                 pessoa.AdicionarLivroLista(livro);
+                pessoa.QntLivrosEmprestadosUsuario = qnt;
+                livro.QntLivrosEmprestados = pessoa.QntLivrosEmprestadosUsuario;
+                Console.WriteLine($"Ainda há '{livro.SaldoExemplares}' exemplares disponíveis para empréstimo");
+
             }
         }
 
@@ -69,12 +75,12 @@ namespace Projeto_CSharp.ClassesEMetodos {
             if(livro != null && pessoa != null) {
                 Console.Write ("Insira a quantidade de livros que serão devolvidos:");
                 int.TryParse(Console.ReadLine(),out int qntDevolvida);
-                if(qntDevolvida > livro.QntLivroEmprestados) {
-                    Console.WriteLine("Você não possui essa quantidade de exemplares. Possui {0} exemplares", livro.QntLivroEmprestados);
+                if(qntDevolvida == livro.QntLivrosEmprestados) pessoa.RemoverLivroLista(idPessoa);
+                if(qntDevolvida > livro.QntLivrosEmprestados) {
+                    Console.WriteLine("Você não possui essa quantidade de exemplares. Possui {0} exemplares", livro.QntLivrosEmprestados);
                 } else {
-                    livro.QntLivroEmprestados -= qntDevolvida;
+                    livro.QntLivrosEmprestados -= qntDevolvida;
                     if(livro.SaldoExemplares != livro.QuantidadeExemplares) livro.SaldoExemplares += qntDevolvida;
-                    
                 }
             }
         }
