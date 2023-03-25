@@ -42,7 +42,7 @@ namespace Projeto_CSharp.ClassesEMetodos
                         string cpf = Console.ReadLine();
                         Console.Write("Telefone: ");
                         string telefone = Console.ReadLine();
-                        Pessoa Pessoas = new Pessoa(idPessoa, nome, cpf, telefone, qntLivrosEmprestadosUsuario);
+                        Pessoa Pessoas = new Pessoa(idPessoa, nome, cpf, telefone);
                         biblioteca.CadastrarPessoa(Pessoas);
                         Console.WriteLine("Cadastro finalizado!");
                         break;
@@ -117,7 +117,7 @@ namespace Projeto_CSharp.ClassesEMetodos
                         foreach (Livro livro in biblioteca.Livros)
                         {
                             Console.WriteLine("Listar todos os livros cadastrados.");
-                            Console.WriteLine("ID: {0}, Titulo: {1}, Autor: {2}, Editora: {3}, Exemplares Disponíveis: {4}.", livro.Id, livro.Titulo, livro.Autor, livro.Editora, livro.SaldoExemplares == 0? livro.QuantidadeExemplares:livro.SaldoExemplares);
+                            Console.WriteLine("ID: {0}, Titulo: {1}, Autor: {2}, Editora: {3}, Exemplares Disponíveis: {4}.", livro.Id, livro.Titulo, livro.Autor, livro.Editora, livro.QuantidadeExemplares);
                         }
                         break;
                     case 6:
@@ -135,7 +135,7 @@ namespace Projeto_CSharp.ClassesEMetodos
                             {
                                 foreach (Livro livro in pessoas.LivrosEmprestados)
                                 {
-                                    Console.WriteLine("ID: {0}, Titulo: {1}, Autor: {2}, Editora: {3}, Exemplares Emprestados: {4}.", livro.Id, livro.Titulo, livro.Autor, livro.Editora, livro.QntLivrosEmprestados);
+                                    Console.WriteLine("ID: {0}, Titulo: {1}, Autor: {2}, Editora: {3}, Exemplares Emprestados: {4}, Cliente que alugou: {5}.", livro.Id, livro.Titulo, livro.Autor, livro.Editora, livro.QuantidadeExemplares, pessoas.Nome);
                                 }
                             }
                             else
