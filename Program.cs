@@ -3,6 +3,7 @@ using System.Collections.Generic;
 
 using CSharp.Fundamentos;
 using CSharp.EstruturasDeControle;
+using Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca;
 using Projeto_CSharp.ClassesEMetodos;
 
 namespace CSharp {
@@ -44,9 +45,10 @@ namespace CSharp {
                 {"Membros: Atributos e Métodos - Classes e Métodos", Membros.Executar },
                 {"Construtores - Classes e Métodos", Construtores.Executar },
                 {"Projeto: Biblioteca", ExecutarBiblioteca.Executar },
-                
-                
-
+                {"Métodos com retorno - Classes e Métodos", MetodosComRetorno.Executar },
+                {"Métodos estáticos - Classes e Métodos", MetodosEstaticos.Executar },
+                {"Atributos estáticos - Classes e Métodos", AtributosEstaticos.Executar },
+                {"Desafio Atributo - Classes e Métodos", DesafioAtributo.Executar},
             });
 
             central.SelecionarEExecutar();

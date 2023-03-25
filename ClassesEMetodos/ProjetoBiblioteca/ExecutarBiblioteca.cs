@@ -1,8 +1,6 @@
 ﻿using System;
 
-namespace Projeto_CSharp.ClassesEMetodos
-{
-
+namespace Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca {
     class ExecutarBiblioteca
     {
         public static void Executar()

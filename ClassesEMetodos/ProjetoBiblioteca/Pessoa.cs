@@ -1,8 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace Projeto_CSharp.ClassesEMetodos
-{
+namespace Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca {
     public class Pessoa
     {
         public int Id { get; set; }

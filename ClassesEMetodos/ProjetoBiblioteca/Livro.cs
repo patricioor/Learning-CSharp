@@ -1,7 +1,6 @@
 using System;
 
-namespace Projeto_CSharp.ClassesEMetodos
-{
+namespace Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca {
     public class Livro
     {
         public int Id {get; set;}
