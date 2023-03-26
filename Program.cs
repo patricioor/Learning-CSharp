@@ -49,6 +49,11 @@ namespace CSharp {
                 {"Métodos estáticos - Classes e Métodos", MetodosEstaticos.Executar },
                 {"Atributos estáticos - Classes e Métodos", AtributosEstaticos.Executar },
                 {"Desafio Atributo - Classes e Métodos", DesafioAtributo.Executar},
+                {"Parâmetros - Classes e Métodos", Params.Executar},
+                {"Parâmetros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
+                {"Get e Set - Classes e Métodos", GetSet.Executar},
+
+
             });
 
             central.SelecionarEExecutar();
