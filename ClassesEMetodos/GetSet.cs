@@ -3,10 +3,10 @@ using System;
 namespace Projeto_CSharp.ClassesEMetodos
 {
     public class Moto {
-        private string Marca {get; set;}
+        string Marca;
 
-        private string Modelo { get; set;}
-        private uint Cilindrada {get; set;}
+        string Modelo;
+        uint Cilindrada;
 
         public Moto (string marca, string modelo, uint cilindrada) {
             SetMarca(marca);

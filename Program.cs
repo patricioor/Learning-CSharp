@@ -52,6 +52,8 @@ namespace CSharp {
                 {"Parâmetros - Classes e Métodos", Params.Executar},
                 {"Parâmetros Nomeados - Classes e Métodos", ParametrosNomeados.Executar},
                 {"Get e Set - Classes e Métodos", GetSet.Executar},
+                {"Propriedades - Classes e Métodos", Props.Executar},
+                {"Readonly - Classes e Métodos", Readonly.Executar},
 
 
             });
