@@ -22,7 +22,7 @@ namespace Projeto_CSharp.ClassesEMetodos
             AlterarRef(ref a);
             System.Console.WriteLine(a);
 
-            // int b;
+            // int b; inicializar?
             AlterarOut(out int b, out int c);
             System.Console.WriteLine("B: {0} e C: {1}",b,c);
         }
