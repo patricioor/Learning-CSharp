@@ -5,6 +5,8 @@ using System;
 namespace Projeto_CSharp.ProjetoBanco {
     class TerminalBanco {
         public static void Executar() {
+            
+
             var account = new Account(001, 1000, "Natural Person",0);
             
             account.NaturalPerson = new NaturalPerson ("Xico","Xico Street", 50, "99_9999_9999", "00000000011", 0001, "xico@xico.com");

@@ -3,45 +3,43 @@ using System;
 
 namespace Projeto_CSharp.ClassesEMetodos
 {   
-    class CarroOpcional {
-        double desconto = 0.1; // default: private
+    public class CarroOpcional {
+        double desconto = 0.1;
         string nome;
-        public string Nome { get{ return "Opcional: " + nome;}  set{ nome = value;}}
-        // Propriedade autoimplementada
+        public string Nome {get{ return nome;} set { nome = value;}}
+
+        // Propriedade Autoimplementadas
         public double Preco {get; set;}
 
-        public double PrecoComDesconto {get => Preco - (desconto * Preco);}
-        public double PrecoComDesconto2 { get { return Preco - (desconto * Preco);}}
+        //Somente leitura
+        public double PrecoComDesconto {
+            get => Preco - (desconto * Preco); // = get{ return Preco - (desconto * Preco);}
+        }
 
-        public CarroOpcional() {}
+        public CarroOpcional () {}
 
-        public CarroOpcional(string nome, double preco) {
+        public CarroOpcional ( string nome, double preco) {
             Nome = nome;
             Preco = preco;
         }
     }
-
     public class Props
     {
         public static void Executar(){
-            var op1 = new CarroOpcional("Ar Condicionado", 3499.99);
+            var op1 = new CarroOpcional ("Direção Hidráulica", 3000.51);
+            
+            System.Console.WriteLine("Nome do Produto: {0}", op1.Nome);
+            System.Console.WriteLine($"Preço do Produto: {op1.Preco}");
+            System.Console.WriteLine("Orçamento Final: R$ " + op1.PrecoComDesconto.ToString("N2"));
 
-            System.Console.WriteLine(op1.PrecoComDesconto);
-            System.Console.WriteLine(op1.PrecoComDesconto2);
+            var op2 = new CarroOpcional ();
+            op2.Nome = "Ar-Condicionado";
+            op2.Preco = 2000.00;
 
-            // op1.PrecoComDesconto = 3000; -> Erro: somente leitura.
-
-            var op2 = new CarroOpcional();
-
-            op2.Nome = "Direção Elétrica";
-            op2.Preco = 2349.99;
-
-            System.Console.WriteLine(op1.Nome);
-            System.Console.WriteLine(op1.Preco);
-
-            System.Console.WriteLine(op2.Nome);
-            System.Console.WriteLine(op2.Preco);
-            System.Console.WriteLine(op2.PrecoComDesconto);
+            System.Console.WriteLine($"Nome do Produto: {op2.Nome}");
+            System.Console.WriteLine("Preço do Produto: {0}", op2.Preco);
+            System.Console.WriteLine("Orçamento Final: R$ " + op2.PrecoComDesconto.ToString("N2"));
+            
         }
     }
 }

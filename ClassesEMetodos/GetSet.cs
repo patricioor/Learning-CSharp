@@ -4,52 +4,52 @@ namespace Projeto_CSharp.ClassesEMetodos
 {
     public class Moto {
         string Marca;
-
         string Modelo;
-        uint Cilindrada;
+        ushort Cilindrada;
 
-        public Moto (string marca, string modelo, uint cilindrada) {
+        public Moto (string marca, string modelo, ushort cilindrada) {
             SetMarca(marca);
             SetModelo(modelo);
             SetCilindrada(cilindrada);
         }
 
         public Moto() {}
-
-        public string GetMarca() {
+        
+        public string GetMarca () {
             return Marca;
         }
 
-        public void SetMarca(string marca) {
+        public void SetMarca (string marca) {
             Marca = marca;
         }
 
-        public string GetModelo() {
+        public string GetModelo () {
             return Modelo;
         }
 
-        public void SetModelo (string modelo) {
+        public void SetModelo(string modelo) {
             Modelo = modelo;
         }
 
-        public uint GetCilindrada () {
+        public ushort GetCilindrada () {
             return Cilindrada;
         }
 
-        public void SetCilindrada (uint cilindrada) {
-            Cilindrada = cilindrada;
+        public void SetCilindrada(ushort cilindrada) {
+            Cilindrada = (ushort) Math.Abs(cilindrada);
         }
     }
     public class GetSet
     {
         public static void Executar() {
-            System.Console.WriteLine("Digite, em sequência, a marca, modelo e as cilindradas");
-            var marca = Console.ReadLine(); 
-            var modelo = Console.ReadLine(); 
-            uint.TryParse(Console.ReadLine(), out uint cilindrada);
+            var moto1 = new Moto ("Honda", "CG", 150);
+            System.Console.WriteLine(moto1.GetMarca() + " " + moto1.GetModelo() + " " + moto1.GetCilindrada());
 
-            var moto1 = new Moto(marca, modelo, cilindrada);
-            System.Console.WriteLine("Marcar: {0}, Modelo: {1}, Cilindrada: {2}", moto1.GetMarca(), moto1.GetModelo(), moto1.GetCilindrada());
+            var moto2 = new Moto();
+            moto2.SetMarca("Yamaha");
+            moto2.SetModelo("WR250F");
+            moto2.SetCilindrada(200);
+            System.Console.WriteLine(moto2.GetMarca() + " " + moto2.GetModelo() + " " + moto2.GetCilindrada());
         }
     }
 }
