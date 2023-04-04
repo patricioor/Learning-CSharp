@@ -14,24 +14,24 @@ namespace Projeto_CSharp.ClassesEMetodos
         public int X;
         public int Y;
     }
-
     public class StructVsClass
     {
         public static void Executar() {
-            var ponto1 = new SPonto {X = 1, Y = 3};
-            SPonto copiaPonto1 = ponto1; // Struct = Atribuição por Valor!
-            ponto1.X = 3;
+            SPonto sponto1 = new SPonto {X = 2, Y = 3};
+            SPonto copiaSPonto1 = sponto1; //Atribuição por Valor;
+            sponto1.X = 5;
 
-            System.Console.WriteLine("Ponto 1 X: {0}", ponto1.X); // X = 3
-            System.Console.WriteLine("Copia Ponto 1 X: {0}", copiaPonto1.X); // X = 1
+            System.Console.WriteLine("SPonto X: {0}, Y: {1}.", sponto1.X, sponto1.Y);
+            System.Console.WriteLine("Cópia SPonto X: {0}, Y: {1}.", copiaSPonto1.X, copiaSPonto1.Y);
+            
+            
+            CPonto cponto1 = new CPonto () {X = 5, Y = 7};
+            CPonto copiaCPonto1 = cponto1; //Atribuição por Referência;
+            cponto1.X = 9;
 
-            CPonto ponto2 = new CPonto {X = 2, Y = 4};
-            CPonto copiaPonto2 = ponto2; // Class = Atribuição por Referência!
-            ponto2.X = 4;
+            System.Console.WriteLine("CPonto X: {0}, Y: {1}.",cponto1.X, cponto1.Y);
+            System.Console.WriteLine("Cópia CPonto X: {0}, Y: {1}.", copiaCPonto1.X, copiaCPonto1.Y);
 
-            System.Console.WriteLine("Ponto 2, X: {0}", ponto2.X); // X = 4
-            System.Console.WriteLine("Copia Ponto 2, X : {0}", copiaPonto2.X); // X = 4
-
-            }
+        }
     }
 }

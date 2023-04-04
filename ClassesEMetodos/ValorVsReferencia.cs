@@ -2,17 +2,13 @@ using System;
 
 namespace Projeto_CSharp.ClassesEMetodos
 {
-    public struct Dependente {
+    public class Dependente {
         public string Nome;
         public int Idade;
     }
     public class ValorVsReferencia
     {
         public static void Executar() {
-            int numero = 3;
-            int copiaNumero = numero;
-            System.Console.WriteLine($"{numero} {copiaNumero}");
-
             var dependente = new Dependente() {
                 Nome = "Patrício",
                 Idade = 22
