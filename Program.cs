@@ -6,6 +6,7 @@ using CSharp.EstruturasDeControle;
 using Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca;
 using Projeto_CSharp.ClassesEMetodos;
 using Projeto_CSharp.ProjetoBanco;
+using Projeto_CSharp.Colecoes;
 
 namespace CSharp {
     class Program {
@@ -57,6 +58,16 @@ namespace CSharp {
                 {"Valor vs Referência- Classes e Métodos", ValorVsReferencia.Executar},
                 {"Parâmetros por Referência- Classes e Métodos", ParametrosPorReferencia.Executar},
 
+                
+                //Coleções
+                {"Array - Coleções", Projeto_CSharp.Colecoes.Array.Executar},
+                {"List - Coleções", Projeto_CSharp.Colecoes.List.Executar},
+                {"ArrayList - Coleções", Projeto_CSharp.Colecoes.ArrayList.Executar},
+                {"Set - Coleções", Projeto_CSharp.Colecoes.Set.Executar},
+                {"Queue - Coleções", Projeto_CSharp.Colecoes.Queue.Executar},
+                {"Igualdade - Coleções", Igualdade.Executar},
+                {"Stack - Coleções", Projeto_CSharp.Colecoes.Stack.Executar},
+                {"Dicionário - Coleções", Projeto_CSharp.Colecoes.Dictionary.Executar},
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
