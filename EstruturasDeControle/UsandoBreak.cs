@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     class UsandoBreak {
         public static void Executar() {
             Random random = new Random();

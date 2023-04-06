@@ -28,3 +28,11 @@
 /home/patricio/Projeto_CSharp/obj/Debug/net6.0/ref/Projeto_C#.dll
 /home/patricio/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.pdb
 /home/patricio/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.genruntimeconfig.cache
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.csproj.AssemblyReference.cache
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.GeneratedMSBuildEditorConfig.editorconfig
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.AssemblyInfoInputs.cache
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.AssemblyInfo.cs
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.csproj.CoreCompileInputs.cache
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.dll
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/ref/Projeto_C#.dll
+/home/patricio/ProjetosVSC/Projeto_CSharp/obj/Debug/net6.0/Projeto_C#.pdb

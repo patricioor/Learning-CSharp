@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     class UsandoContinue {
         public static void Executar() {
             for(int i = 0; i <= 50 ; i++) {

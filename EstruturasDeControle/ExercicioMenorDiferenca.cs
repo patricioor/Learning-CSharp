@@ -10,9 +10,7 @@
     
     Saída[7,6]
  */
-using System;
-
-namespace CSharp.EstruturasDeControle {
+namespace Projeto_CSharp.EstruturasDeControle {
     internal class ExercicioMenorDiferenca {
         public static void Executar() {
             int[] timesFutebol = new int[5] {4,2,7,6,9};

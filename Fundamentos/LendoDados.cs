@@ -1,7 +1,6 @@
-﻿using System;
-using System.Globalization;
+﻿using System.Globalization;
 
-namespace CSharp.Fundamentos {
+namespace Projeto_CSharp.Fundamentos {
     class LendoDados {
         public static void Executar() {
             Console.WriteLine("Qual é o seu nome? ");

@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     internal class EstruturaDoWhile {
         public static void Executar() {
             string entrada;

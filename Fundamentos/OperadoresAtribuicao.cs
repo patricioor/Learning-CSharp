@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class OperadoresAtribuicao {
         public static void Executar() {
             var num1 = 3;

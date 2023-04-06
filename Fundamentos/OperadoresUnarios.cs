@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class OperadoresUnarios {
         public static void Executar() {
             var valorNegativo = -5;

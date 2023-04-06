@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     class EstruturaSwitch {
         public static void Executar() {
             Console.WriteLine("Avalie o atendimento, a avaliação varia de 0 a 5, onde 5 é totalmente satisfeito e 0 totalmente satisfeito");

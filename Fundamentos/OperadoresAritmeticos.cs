@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class OperadoresAritmeticos {
         public static void Executar() {
             // Preço Desconto

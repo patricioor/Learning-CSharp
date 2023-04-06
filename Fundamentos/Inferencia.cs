@@ -1,7 +1,4 @@
-﻿using System;
-using System.ComponentModel.Design.Serialization;
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class Inferencia {
         public static void Executar() {
             var nome = "Patrício"; // == string nome = "Patrício";

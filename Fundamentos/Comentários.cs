@@ -1,5 +1,4 @@
-﻿using System;
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class Comentários {
         /// <summary>
         /// 

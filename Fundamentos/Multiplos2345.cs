@@ -25,9 +25,7 @@
     2 Múltiplo(s) de 4
     3 Múltiplo(s) de 5
 */
-using System;
-
-namespace CSharp {
+namespace Projeto_CSharp.Fundamentos {
     class Multiplos2345 {
         public static void Executar() {
             int m2 = 0, m3 = 0, m4 = 0, m5 = 0;

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
      class EstruturaForEach {
         public static void Executar() {
             var palavra = "Opa!";

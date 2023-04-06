@@ -1,8 +1,4 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-
-namespace CSharp {
+namespace Projeto_CSharp {
     public class CentralDeExercicios {
         Dictionary<string, Action> Exercicios;
 

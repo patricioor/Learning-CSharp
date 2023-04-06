@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class Interpolacao {
         public static void Executar() {
             string nome = "Notebook c5000";

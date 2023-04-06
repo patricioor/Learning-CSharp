@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     class EstruturaIfElse {
         public static void Executar() {
             bool bomComportamento = false;

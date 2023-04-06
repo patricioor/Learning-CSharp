@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     class EstruturaFor {
         public static void Executar() {
             double somatorio = 0;

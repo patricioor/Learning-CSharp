@@ -1,14 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 
-using CSharp.Fundamentos;
-using CSharp.EstruturasDeControle;
-using Projeto_CSharp.ClassesEMetodos.ProjetoBiblioteca;
+using Projeto_CSharp.Fundamentos;
+using Projeto_CSharp.EstruturasDeControle;
 using Projeto_CSharp.ClassesEMetodos;
-using Projeto_CSharp.ProjetoBanco;
 using Projeto_CSharp.Colecoes;
+using Projeto_CSharp.OO;
 
-namespace CSharp {
+namespace Projeto_CSharp {
     class Program {
         static void Main(string[] args) {
             var central = new CentralDeExercicios(new Dictionary<string, Action>() {
@@ -68,13 +67,19 @@ namespace CSharp {
                 {"Igualdade - Coleções", Igualdade.Executar},
                 {"Stack - Coleções", Projeto_CSharp.Colecoes.Stack.Executar},
                 {"Dicionário - Coleções", Projeto_CSharp.Colecoes.Dictionary.Executar},
+                
+                //Orientação a Objetos
+
+                {"Herança - Orientação a Objetos", Heranca.Executar},
+                {"Construtor 'This' - Orientação a Objetos", ConstrutorThis.Executar},
+                {"Encapsulamento - Orientação a Objetos", OO.Encapsulamento.Executar},
 
                 //Exercícios
                 {"Exercício: Múltiplos de 2,3,4 e 5", Multiplos2345.Executar },
                 {"Exercício: Número primo", NumeroPrimo.Executar },
                 {"Exercício: Menor Diferença - Estruturas de Controle", ExercicioMenorDiferenca.Executar },
-                {"Projeto: Biblioteca", ExecutarBiblioteca.Executar },
-                {"Projeto: Banco Simples", TerminalBanco.Executar },
+                {"Projeto: Biblioteca", ClassesEMetodos.ProjetoBiblioteca.ExecutarBiblioteca.Executar },
+                {"Projeto: Banco Simples", ProjetoBanco.TerminalBanco.Executar },
             });
 
             central.SelecionarEExecutar();

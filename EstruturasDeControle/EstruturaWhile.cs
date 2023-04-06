@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.EstruturasDeControle {
+﻿namespace Projeto_CSharp.EstruturasDeControle {
     class EstruturaWhile {
         public static void Executar() {
             int palpite = 0;

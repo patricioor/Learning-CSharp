@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class OperadoresLogicos {
         public static void Executar() {
             var executouTrabalho1 = true;

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class OperadoresRelacionais {
         public static void Executar() {
             //double nota = 6.0;

@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class OperadorTernario {
         public static void Executar() {
             var faltas = 8;

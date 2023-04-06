@@ -1,7 +1,4 @@
-﻿using System;
-
-
-namespace CSharp.Fundamentos {
+﻿namespace Projeto_CSharp.Fundamentos {
     class VariáveisEConstantes {
         public static void Executar() {
             //área da circunferência
